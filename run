@@ -1,0 +1,2 @@
+#!/usr/bin/ nix-shell
+#! nix-shell -p python312 python312Packages.requests -c flask run --port 80 --host 0.0.0.0
